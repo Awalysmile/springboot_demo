@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: miles
+    url: jdbc:mysql:///mybaties
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+mybatis:
+  mapper-locations:

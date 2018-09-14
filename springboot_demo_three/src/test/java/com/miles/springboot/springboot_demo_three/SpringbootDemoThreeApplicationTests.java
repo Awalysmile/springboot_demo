@@ -1,15 +1,13 @@
-package com.miles.springboot.springboot_demo_one;
+package com.miles.springboot.springboot_demo_three;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@EnableScheduling
-public class SpringbootDemoOneApplicationTests {
+public class SpringbootDemoThreeApplicationTests {
 
     @Test
     public void contextLoads() {

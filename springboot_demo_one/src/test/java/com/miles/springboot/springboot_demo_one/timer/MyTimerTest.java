@@ -8,5 +8,8 @@ public class MyTimerTest {
     public void testTaskRun(){
         MyTimer myTimer = new MyTimer();
         myTimer.taskRun();
+        while (true){
+
+        }
     }
 }
