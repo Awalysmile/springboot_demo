@@ -2,9 +2,10 @@ spring:
   datasource:
     username: root
     password: miles
-    url: jdbc:mysql:///mybaties
+    url: jdbc:mysql:///mybatis
     driver-class-name: com.mysql.jdbc.Driver
 
 
 mybatis:
-  mapper-locations:
+  mapper-locations: classpath:com/miles/springboot/springboot_demo_two/dao/mapper/*.xml
+  type-aliases-package: com.miles.springboot.springboot_demo_two.entity
